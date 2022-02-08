@@ -1,7 +1,7 @@
 import pyautogui,time
 time.sleep(5)
-'''pyautogui.click(470,405)
-print("Start Game")'''
+pyautogui.click(470,405)
+print("Start Game")
 score = 0
 while True:
     pixel = (pyautogui.pixel(470,405),pyautogui.pixel(542,405),pyautogui.pixel(613,405),pyautogui.pixel(677,405))
